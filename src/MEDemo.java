@@ -3,8 +3,22 @@ public class MEDemo {
 
 		public static void main(String[] args) {
 			
-			System.out.println("PROBLEMS");
-			System.out.println("PROMBLEMS AGAIN");
-			System.out.println("PROBLEMS");
+		
+			MarryingEve list = new MarryingEve();
+			
+			
+			list.add(1);
+			list.add(2);
+			list.add(3);
+			list.add(4);
+			list.add(5);
+			list.add(6);
+			list.add(7);
+			
+			list.removeThird();
+			
+			
+				System.out.println(list);
+			
 		}
 }
